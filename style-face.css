@@ -1,0 +1,440 @@
+body {
+	margin-top:0px;
+	margin-left: 0px;
+	margin-right: 0px;
+	margin-bottom: 0px;
+
+
+	font-size:15px;
+	color:#fff;
+
+	background-color:white;
+	
+}
+h1, h2, h3, h4, h5, h6{
+	margin:0px;
+}
+*,
+*:before,
+*:after{
+	-webkit-box-sizing:border-box;
+	box-sizing: border-box;}
+
+/*=================================Container==============================*/
+.container{
+	width:100%;
+	max-width: 1200px;
+	margin: 0 auto;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*===================================INTRO1===================================*/
+/*============================================================================*/
+/*===================================fixedeader===============================*/
+
+.fixedheader{
+  height: 60px;
+  background-color: #aa9ac3;
+  width: 100%;
+  position: fixed;
+  margin-top: 0px;
+	}
+
+.phonenumber{
+	height: 60px;
+	width: 50%;
+	float:left;
+	text-align: center;
+	font-size: 22px;
+	color: black;
+	
+}
+.mail{
+	height: 60px;
+	width: 50%;
+	
+	float: right;
+	text-align: center;
+	font-size: 22px;
+	color: black;
+	
+}
+
+/*===================================header==================================*/
+.header{
+  height: 60px;
+  padding: 60px;
+  background-color:#d9eafa;
+  width: 100%;
+
+}
+
+.logo{
+	height: 60px;
+	width: 25%;
+	float: left;
+    background-color: black;
+}
+
+.container_header{
+	width: 100%;
+	max-width: 1200px;
+	height: 60px;
+}
+/*====================================buttons================================*/
+.buttons{
+	height: 60px;
+	width: 75%;
+	float: right;
+	
+}
+
+.contacts{
+     height: 60px;
+     width: 32%;
+     display: inline-block;
+     color:black;
+     font-size: 28px;
+     text-align: right;
+     padding-top: 15px;
+}
+
+.reviews{
+     height: 60px;
+     width: 32%;
+     display: inline-block;
+     color:black;
+     font-size: 28px;
+     text-align: right;
+     padding-top: 15px;
+}
+
+.company{
+     height: 60px;
+     width: 32%;
+     display: inline-block;
+     color:black;
+     font-size: 28px;
+     text-align: right;
+     padding-top: 15px;
+
+
+}
+/*==================================Blocks===================================*/
+.blocks1{
+	
+	height: 690px;
+	width:100%;
+	background-color:white;
+	color:black;
+	background: #1e1e21 url("images/intro1.jpg") center no-repeat;
+	background-size:cover;
+	
+}
+
+.textlogo{
+	font-size:100px;
+	padding-top: 70px;
+	text-align: right;
+}
+/*=====================================INTRO2=================================*/
+/*============================================================================*/
+.blocks2{
+	height: 600px;
+	background-color: #d9eafa;
+}
+
+.buttittle{
+	height: 60px;
+	font-size: 35px;
+	text-align: left;
+	color:black;
+	padding-top: 20px;
+}
+
+.butphoto{
+	display: flex;
+	flex-wrap: wrap;
+	margin-top: 15px;
+
+}
+
+/*=====================================Photo=================================*/
+/*============================================================================*/
+.photo1{
+	height: 250px;
+	width: 20%;
+	z-index: 1;
+	margin-top:10px;
+	background: url("Rablogo/строительство и реконструкция_м.jpg") center no-repeat;
+
+}
+
+.photo2{
+	height: 250px;
+	width: 20%;
+	z-index: 1;
+	margin-top:10px;
+	background: url("Rablogo/монтаж инженерных сетей_м.jpg") center no-repeat;
+
+}
+
+.photo3{
+	height: 250px;
+	width: 20%;
+	z-index: 1;
+	margin-top:10px;
+	background: url("Rablogo/Монтаж систем пожаротушения_м.jpg") center no-repeat;
+
+}
+
+.photo4{
+	height: 250px;
+	width: 20%;
+	z-index: 1;
+	margin-top:10px;
+	background: url("Rablogo/СКС_м.jpg") center no-repeat;
+
+}
+
+.photo5{
+	height: 250px;
+	width: 20%;
+	z-index: 1;
+	margin-top:10px;
+	background: url("Rablogo/монтаж системы газоанализа_м.jpg") center no-repeat;
+
+}
+
+.photo6{
+	height: 250px;
+	width: 20%;
+	z-index: 1;
+	margin-top:10px;
+	background: url("Rablogo/электромонтажные работы_м.jpg") center no-repeat;
+
+}
+
+.photo7{
+	height: 250px;
+	width: 20%;
+	z-index: 1;
+	margin-top:10px;
+	background: url("Rablogo/испытательные лаборатории_м.jpg") center no-repeat;
+
+}
+
+.photo8{
+	height: 250px;
+	width: 20%;
+	z-index: 1;
+	margin-top:10px;
+	background: url("Rablogo/алмазное бурение_м.jpg") center no-repeat;
+
+}
+
+.photo9{
+	height: 250px;
+	width: 20%;
+	z-index: 1;
+	margin-top:10px;
+	background: url("Rablogo/коттеджное строительство_м.jpg") center no-repeat;
+
+}
+
+.photo10{
+	height: 250px;
+	width: 20%;
+	z-index: 1;
+	margin-top:10px;
+	background: url("Rablogo/Шумоизоляция ремонт_м.jpg") center no-repeat;
+
+}
+
+.photo1:hover .content_back{
+	opacity:1;
+}
+
+.photo2:hover .content_back{
+	opacity:1;
+}
+.photo3:hover .content_back{
+	opacity:1;
+}
+.photo4:hover .content_back{
+	opacity:1;
+}
+.photo5:hover .content_back{
+	opacity:1;
+}
+.photo6:hover .content_back{
+	opacity:1;
+}
+.photo7:hover .content_back{
+	opacity:1;
+}
+.photo8:hover .content_back{
+	opacity:1;
+}
+.photo9:hover .content_back{
+	opacity:1;
+}
+.photo10:hover .content_back{
+	opacity:1;
+}
+/*============================================================================*/
+.photo:hover .content_back{
+	opacity:1;
+}
+
+.photo_content{
+	display: flex;
+	font-size: 25px;
+	justify-content: center;
+	padding-top: 60px;
+	text-align: center;
+	text-decoration: none;
+	color: black;
+
+}
+
+.content_back{
+	background-color: rgba(170, 154, 195, .8);
+	height: 100%;
+	width: 100%;
+	z-index: 2;
+	opacity: 0;
+}
+/*=====================================INTRO3=================================*/
+/*============================================================================*/
+.blocks3{
+	height: 750px;
+	background-color: #d9eafa;
+
+}
+
+.intro3photo{
+	display: flex;
+	flex-wrap: wrap;
+	margin-top: 20px;
+}
+
+.photointro{
+	height: 200px;
+	width: 25%;
+	overflow: hidden;
+	margin-top: 10px;
+
+}
+
+
+/*=====================================INTRO4=================================*/
+/*============================================================================*/
+.intro4{
+	height: 760px;
+}
+
+.blocks4{
+	height: 760px;
+	background-color: #aa9ac3;
+
+}
+
+.intro4logo{
+	height: 760px;
+	width: 30%;
+	float: left;
+
+}
+
+.intro4text{
+	height: 760px;
+	width: 70%;
+	float: right;
+	
+}
+
+/*======================================block=================================*/
+.block1{
+    height: 760px;
+    width: 32%;
+    float: left;
+   
+
+}
+
+.block3{
+    height: 760px;
+    width: 32%;
+    float: right;
+    text-align: center;
+
+}
+
+.block2{
+    height: 760px;
+    width: 32%;
+    float: right;
+}
+
+.zagolovog{
+    text-align: center;
+	font-size: 30px;
+	color: black;
+	margin-top: 20px;
+}
+
+.zagolovok{
+	text-align: center;
+	font-size: 30px;
+	color: black;
+	margin-top: 60px;
+
+
+}
+
+.but{
+	text-align: center;
+	
+}
+
+.buttext{
+	font-size: 19px;
+	margin-top: 14px;
+	line-height: 123%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -52,13 +52,20 @@ h1, h2, h3, h4, h5, h6{
 /*===================================INTRO1===================================*/
 /*============================================================================*/
 /*===================================fixedeader===============================*/
+.intro1{
+
+	
+
+}
 
 .fixedheader{
   height: 60px;
-  background-color: #aa9ac3;
+  background: #1e1e21 url("images/intro111.jpg") center no-repeat;
+	background-size:cover;
   width: 100%;
   position: fixed;
   margin-top: 0px;
+  z-index: 5;
 	}
 
 .phonenumber{
@@ -82,10 +89,13 @@ h1, h2, h3, h4, h5, h6{
 }
 
 /*===================================header==================================*/
+
+
+
 .header{
   height: 60px;
   padding: 60px;
-  background-color:#d9eafa;
+  background-color: #d9eafa;
   width: 100%;
 
 }
@@ -94,7 +104,7 @@ h1, h2, h3, h4, h5, h6{
 	height: 60px;
 	width: 25%;
 	float: left;
-    background-color: black;
+    
 }
 
 .container_header{
@@ -146,16 +156,16 @@ h1, h2, h3, h4, h5, h6{
 	
 	height: 690px;
 	width:100%;
-	background-color:white;
-	color:black;
-	background: #1e1e21 url("images/intro1.jpg") center no-repeat;
+	background: #1e1e21 url("images/intro12.jpg") center no-repeat;
 	background-size:cover;
+	color:black;
+	
 	
 }
 
 .textlogo{
 	font-size:100px;
-	padding-top: 70px;
+	padding-top: 60px;
 	text-align: right;
 }
 /*=====================================INTRO2=================================*/
@@ -188,7 +198,7 @@ h1, h2, h3, h4, h5, h6{
 	z-index: 1;
 	margin-top:10px;
 	background: url("Rablogo/строительство и реконструкция_м.jpg") center no-repeat;
-
+    border-radius: 25px;
 }
 
 .photo2{
@@ -197,11 +207,12 @@ h1, h2, h3, h4, h5, h6{
 	z-index: 1;
 	margin-top:10px;
 	background: url("Rablogo/монтаж инженерных сетей_м.jpg") center no-repeat;
-
+    border-radius: 25px;
 }
 
 .photo3{
 	height: 250px;
+	border-radius: 25px;
 	width: 20%;
 	z-index: 1;
 	margin-top:10px;
@@ -211,6 +222,7 @@ h1, h2, h3, h4, h5, h6{
 
 .photo4{
 	height: 250px;
+	border-radius: 25px;
 	width: 20%;
 	z-index: 1;
 	margin-top:10px;
@@ -220,6 +232,7 @@ h1, h2, h3, h4, h5, h6{
 
 .photo5{
 	height: 250px;
+	border-radius: 25px;
 	width: 20%;
 	z-index: 1;
 	margin-top:10px;
@@ -229,6 +242,7 @@ h1, h2, h3, h4, h5, h6{
 
 .photo6{
 	height: 250px;
+	border-radius: 25px;
 	width: 20%;
 	z-index: 1;
 	margin-top:10px;
@@ -238,6 +252,7 @@ h1, h2, h3, h4, h5, h6{
 
 .photo7{
 	height: 250px;
+	border-radius: 25px;
 	width: 20%;
 	z-index: 1;
 	margin-top:10px;
@@ -247,6 +262,7 @@ h1, h2, h3, h4, h5, h6{
 
 .photo8{
 	height: 250px;
+	border-radius: 25px;
 	width: 20%;
 	z-index: 1;
 	margin-top:10px;
@@ -256,6 +272,7 @@ h1, h2, h3, h4, h5, h6{
 
 .photo9{
 	height: 250px;
+	border-radius: 25px;
 	width: 20%;
 	z-index: 1;
 	margin-top:10px;
@@ -265,6 +282,7 @@ h1, h2, h3, h4, h5, h6{
 
 .photo10{
 	height: 250px;
+	border-radius: 25px;
 	width: 20%;
 	z-index: 1;
 	margin-top:10px;
@@ -317,6 +335,7 @@ h1, h2, h3, h4, h5, h6{
 	text-decoration: none;
 	color: black;
 
+
 }
 
 .content_back{
@@ -325,6 +344,7 @@ h1, h2, h3, h4, h5, h6{
 	width: 100%;
 	z-index: 2;
 	opacity: 0;
+	border-radius: 25px;
 }
 /*=====================================INTRO3=================================*/
 /*============================================================================*/
@@ -345,6 +365,7 @@ h1, h2, h3, h4, h5, h6{
 	width: 25%;
 	overflow: hidden;
 	margin-top: 10px;
+	border-radius: 25px;
 
 }
 
@@ -352,24 +373,20 @@ h1, h2, h3, h4, h5, h6{
 /*=====================================INTRO4=================================*/
 /*============================================================================*/
 .intro4{
-	height: 760px;
-}
-
-.blocks4{
-	height: 760px;
 	background-color: #aa9ac3;
-
+	height: 495px;
 }
+
 
 .intro4logo{
-	height: 760px;
+	height: 100%;
 	width: 30%;
 	float: left;
 
 }
 
 .intro4text{
-	height: 760px;
+	height: 100%;
 	width: 70%;
 	float: right;
 	
@@ -377,7 +394,7 @@ h1, h2, h3, h4, h5, h6{
 
 /*======================================block=================================*/
 .block1{
-    height: 760px;
+    
     width: 32%;
     float: left;
    
@@ -385,7 +402,7 @@ h1, h2, h3, h4, h5, h6{
 }
 
 .block3{
-    height: 760px;
+    
     width: 32%;
     float: right;
     text-align: center;
@@ -393,7 +410,7 @@ h1, h2, h3, h4, h5, h6{
 }
 
 .block2{
-    height: 760px;
+  
     width: 32%;
     float: right;
 }
@@ -423,6 +440,7 @@ h1, h2, h3, h4, h5, h6{
 	font-size: 19px;
 	margin-top: 14px;
 	line-height: 123%;
+	color: black;
 }
 
 
@@ -431,10 +449,60 @@ h1, h2, h3, h4, h5, h6{
 
 
 
+/*===.    <div class="zagolovog">Направления<br/> деятельности</div>
 
+                    <div class="but">
 
+                    	             <div class="buttext">
+                    	             Строительство и <br/>реконструкция         </div> 
 
+                                     <div class="buttext">
+                                     	Монтаж инженерных <br/>сетей            </div> 
 
+                                     <div class="buttext">
+                                     	Монтаж систем <br/>пожаротушения        </div> 
+
+                                     <div class="buttext">
+                                     	Монтаж структурированных <br/>кабельных сетей                              </div> 
+
+                                     <div class="buttext">
+                                     	Монтаж систем <br/>газоанализа          </div> 
+
+                                     
+                    </div>
+
+                    <div class="block2">
+					<div class="zagolovok">Контакты</div>
+					<div class="zagolovok">О нас</div>
+					<div class="zagolovok">Отзывы</div>
+					<div class="zagolovok">Заказчики</div>
+				</div>
+
+				<div class="block3">
+					<div class="buttext" style="margin-top: 80px;">
+                                     	Электромонтажные <br/>работы            </div> 
+
+                                     <div class="buttext">
+                                     	Алмазное бурение                   </div> 
+
+                                     <div class="buttext">
+                                     	Коттеджное <br/>строительство           </div> 
+
+                                     <div class="buttext">
+                                     	Шумоизоляция <br/> 
+                                        Ремонт <br/>
+                                        Отделка помещений                  </div> 
+
+                                     <div class="buttext">
+                                     	Строительство <br/>
+                                        испытательных <br/>лабораторий          </div> 
+
+				</div>
+                 
+
+                 <div class="block1">
+					
+				</div>     
 
 
 

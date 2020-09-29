@@ -60,12 +60,13 @@ h1, h2, h3, h4, h5, h6{
 .fixedheader{
   height: 60px;
   background: #1e1e21 url("images/intro111.jpg") center no-repeat;
-	background-size:cover;
+  background-size:cover;
   width: 100%;
   position: fixed;
   margin-top: 0px;
   z-index: 5;
-	}
+  box-shadow: 0 0 20px rgba(0,0,0,0.5);
+}
 
 .phonenumber{
 	height: 60px;
@@ -94,7 +95,8 @@ h1, h2, h3, h4, h5, h6{
 .header{
   height: 60px;
   padding: 60px;
-  background-color: #d9eafa;
+  background: url(images/headerBG.png) center no-repeat;
+  background-size: cover;
   width: 100%;
 
 }
@@ -122,7 +124,7 @@ h1, h2, h3, h4, h5, h6{
      height: 60px;
      width: 32%;
      display: inline-block;
-     color:black;
+     color:white;
      font-size: 28px;
      text-align: center;
      padding-top: 15px;
@@ -132,7 +134,7 @@ h1, h2, h3, h4, h5, h6{
      height: 60px;
      width: 32%;
      display: inline-block;
-     color:black;
+     color:white;
      font-size: 28px;
      text-align: center;
      padding-top: 15px;
@@ -142,7 +144,7 @@ h1, h2, h3, h4, h5, h6{
      height: 60px;
      width: 32%;
      display: inline-block;
-     color:black;
+     color:white;
      font-size: 28px;
      text-align: center;
      padding-top: 15px;
@@ -162,6 +164,7 @@ h1, h2, h3, h4, h5, h6{
 }
 
 .textlogo{
+	color: #32333c;
 	position: relative;
 	right: -1vw;
 	font-size:6vw;
@@ -172,14 +175,14 @@ h1, h2, h3, h4, h5, h6{
 /*============================================================================*/
 .blocks2{
 	height: 100%;
-	background-color: #d9eafa;
+	background-color: #32333c;
 }
 
 .buttittle{
 	height: 60px;
 	font-size: 35px;
 	text-align: center;
-	color:black;
+	color:white;
 	font-weight: 500;
 	padding-top: 20px;
 	margin-bottom: 40px;
@@ -201,7 +204,7 @@ h1, h2, h3, h4, h5, h6{
 	width: 250px;
 	z-index: 1;
 	margin:10px;
-	background: url("Rablogo/строительство и реконструкция_м.jpg") center no-repeat;
+	background: url("Rablogo/Stroitelstvo i rek_m.jpg") center no-repeat;
 	background-size: cover;
     border-radius: 25px;	
     transition: 1s;
@@ -212,7 +215,7 @@ h1, h2, h3, h4, h5, h6{
 	width: 250px;
 	z-index: 1;
 	margin:10px;
-	background: url("Rablogo/монтаж инженерных сетей_м.jpg") center no-repeat;
+	background: url("Rablogo/Montaj ing setey_m.jpg") center no-repeat;
 	background-size: cover;
     border-radius: 25px;	
     transition: 1s;
@@ -224,7 +227,7 @@ h1, h2, h3, h4, h5, h6{
 	width: 250px;
 	z-index: 1;
 	margin:10px;
-	background: url("Rablogo/Монтаж систем пожаротушения_м.jpg") center no-repeat;
+	background: url("Rablogo/Montaj sistem pojar_m.jpg") center no-repeat;
 	background-size: cover;
 	transition: 1s;
 }
@@ -235,7 +238,7 @@ h1, h2, h3, h4, h5, h6{
 	width: 250px;
 	z-index: 1;
 	margin:10px;
-	background: url("Rablogo/СКС_м.jpg") center no-repeat;
+	background: url("Rablogo/SKS_m.jpg") center no-repeat;
 	background-size: cover;
 	background-size: cover;
 	transition: 1s;
@@ -247,7 +250,7 @@ h1, h2, h3, h4, h5, h6{
 	width: 250px;
 	z-index: 1;
 	margin:10px;
-	background: url("Rablogo/монтаж системы газоанализа_м.jpg") center no-repeat;
+	background: url("Rablogo/Montaj sistem gas_m.jpg") center no-repeat;
 	background-size: cover;
 	transition: 1s;
 }
@@ -258,7 +261,7 @@ h1, h2, h3, h4, h5, h6{
 	width: 250px;
 	z-index: 1;
 	margin:10px;
-	background: url("Rablogo/электромонтажные работы_м.jpg") center no-repeat;
+	background: url("Rablogo/Electromontaj raboty_m.jpg") center no-repeat;
 	background-size: cover;
 	transition: 1s;
 }
@@ -269,7 +272,7 @@ h1, h2, h3, h4, h5, h6{
 	width: 250px;
 	z-index: 1;
 	margin:10px;
-	background: url("Rablogo/испытательные лаборатории_м.jpg") center no-repeat;
+	background: url("Rablogo/Isp laboratorii_m.jpg") center no-repeat;
 	background-size: cover;
 	transition: 1s;
 }
@@ -280,7 +283,7 @@ h1, h2, h3, h4, h5, h6{
 	width: 250px;
 	z-index: 1;
 	margin:10px;
-	background: url("Rablogo/алмазное бурение_м.jpg") center no-repeat;
+	background: url("Rablogo/Almaznoe burenie_m.jpg") center no-repeat;
 	background-size: cover;
 	transition: 1s;
 }
@@ -291,7 +294,7 @@ h1, h2, h3, h4, h5, h6{
 	width: 250px;
 	z-index: 1;
 	margin:10px;
-	background: url("Rablogo/коттеджное строительство_м.jpg") center no-repeat;
+	background: url("Rablogo/Cottedg stroy_m.jpg") center no-repeat;
 	background-size: cover;
 	transition: 1s;
 }
@@ -302,7 +305,7 @@ h1, h2, h3, h4, h5, h6{
 	width: 250px;
 	z-index: 1;
 	margin:10px;
-	background: url("Rablogo/Шумоизоляция ремонт_м.jpg") center no-repeat;
+	background: url("Rablogo/Shumoizol remont_m.jpg") center no-repeat;
 	background-size: cover;
 	transition: 1s;	
 }
@@ -344,6 +347,8 @@ h1, h2, h3, h4, h5, h6{
 }
 
 .photo_content{
+	width: 250px;
+	height: 250px;
 	display: flex;
 	font-size: 25px;
 	justify-content: center;
@@ -356,7 +361,7 @@ h1, h2, h3, h4, h5, h6{
 }
 
 .content_back{
-	background-color: rgba(170, 154, 195, .8);
+	background-color: rgba(255, 255, 255, .75);
 	height: 100%;
 	width: 100%;
 	z-index: 2;
@@ -368,7 +373,7 @@ h1, h2, h3, h4, h5, h6{
 /*============================================================================*/
 .blocks3{
 	height: 100%;
-	background-color: #d9eafa;
+	background-color: #32333c;
 
 }
 
@@ -402,14 +407,14 @@ h1, h2, h3, h4, h5, h6{
 
 
 .intro4logo{
-	height: 300px;
-	width: 300px;
+	height: 360px;
+	width: 360px;
 	float: left;
 
 }
 
 .intro4text{
-	width: 70%;
+	width: 500px;
 	float: right;
 	
 }
@@ -488,6 +493,7 @@ h1, h2, h3, h4, h5, h6{
 .flex {
 	display: flex;
 	justify-content: center;
+	align-items: center;
 	flex-wrap: wrap;
 }
 
@@ -496,6 +502,7 @@ h1, h2, h3, h4, h5, h6{
 }
 
 .footer_text {
+	width: 50%;
 	text-align: center;
 }
 
@@ -511,12 +518,41 @@ h1, h2, h3, h4, h5, h6{
 	font-size: 30px;
 }
 
+.footer_menu {
+	margin-top: 6px;
+	width: 300px;
+	height: 300px;
+}
 
+.footer_menu a {
+	margin-bottom: 60px;
+	font-size: 30px;
+	font-weight: 100;
+	display: block;
+    color: #fff;
+    text-align: center;
+    text-decoration: none;
+    font-family: sans-serif;
+    transition: 0.1s;
 
+}
 
+.footer_menu a:hover {
+	transform: scale(1.1);
+	color: #bff3ff;
+
+}
+
+.scale {
+	box-shadow: 0 0 20px rgba(0,0,0,0.5);
+	transition: .2s;
+}
+
+.scale:hover {
+	transform: scale(1.1);
+}
 
 /*===.    
-
 
 
 <div class="footer_text_big" style="padding-left: 50px;">
@@ -526,6 +562,8 @@ h1, h2, h3, h4, h5, h6{
           <div style="padding-top: 30px;">Заказчики</div>
           
         </div>
+
+
 
 
 

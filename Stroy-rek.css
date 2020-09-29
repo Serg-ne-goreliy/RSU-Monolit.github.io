@@ -152,7 +152,7 @@ h1, h2, h3, h4, h5, h6{
 
 /*=====================================INTRO4=================================*/
 /*============================================================================*/
-..intro4{
+.intro4{
     background: url(images/Footer_bg.png) center no-repeat;
     background-size: cover;
     display: flex;

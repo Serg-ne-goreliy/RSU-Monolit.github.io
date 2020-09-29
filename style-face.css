@@ -22,8 +22,7 @@ h1, h2, h3, h4, h5, h6{
 
 /*=================================Container==============================*/
 .container{
-	width:100%;
-	max-width: 80vw;
+	width:80vw;
 	margin: 0 auto;
 
 }
@@ -109,13 +108,12 @@ h1, h2, h3, h4, h5, h6{
 
 .container_header{
 	width: 100%;
-	max-width: 1200px;
 	height: 60px;
 }
 /*====================================buttons================================*/
 .buttons{
 	height: 60px;
-	width: 75%;
+	width: 50%;
 	float: right;
 	
 }
@@ -126,7 +124,7 @@ h1, h2, h3, h4, h5, h6{
      display: inline-block;
      color:black;
      font-size: 28px;
-     text-align: right;
+     text-align: center;
      padding-top: 15px;
 }
 
@@ -136,7 +134,7 @@ h1, h2, h3, h4, h5, h6{
      display: inline-block;
      color:black;
      font-size: 28px;
-     text-align: right;
+     text-align: center;
      padding-top: 15px;
 }
 
@@ -146,7 +144,7 @@ h1, h2, h3, h4, h5, h6{
      display: inline-block;
      color:black;
      font-size: 28px;
-     text-align: right;
+     text-align: center;
      padding-top: 15px;
 
 
@@ -154,9 +152,9 @@ h1, h2, h3, h4, h5, h6{
 /*==================================Blocks===================================*/
 .blocks1{
 	
-	height: 690px;
+	height: 40vw;
 	width:100%;
-	background: #1e1e21 url("images/intro12.jpg") center no-repeat;
+	background: #1e1e21 url("images/introin.jpg") center no-repeat;
 	background-size:cover;
 	color:black;
 	
@@ -164,27 +162,33 @@ h1, h2, h3, h4, h5, h6{
 }
 
 .textlogo{
-	font-size:100px;
-	padding-top: 60px;
+	position: relative;
+	right: -1vw;
+	font-size:6vw;
+	padding-top: 40px;
 	text-align: right;
 }
 /*=====================================INTRO2=================================*/
 /*============================================================================*/
 .blocks2{
-	height: 600px;
+	height: 100%;
 	background-color: #d9eafa;
 }
 
 .buttittle{
 	height: 60px;
 	font-size: 35px;
-	text-align: left;
+	text-align: center;
 	color:black;
+	font-weight: 500;
 	padding-top: 20px;
+	margin-bottom: 40px;
 }
 
 .butphoto{
 	display: flex;
+	align-items: center;
+	justify-content: center;
 	flex-wrap: wrap;
 	margin-top: 15px;
 
@@ -194,108 +198,113 @@ h1, h2, h3, h4, h5, h6{
 /*============================================================================*/
 .photo1{
 	height: 250px;
-	width: 19%;
-	margin-right: 1%;
+	width: 250px;
 	z-index: 1;
-	margin-top:10px;
+	margin:10px;
 	background: url("Rablogo/строительство и реконструкция_м.jpg") center no-repeat;
-    border-radius: 25px;
+	background-size: cover;
+    border-radius: 25px;	
+    transition: 1s;
 }
 
 .photo2{
 	height: 250px;
-	width: 19%;
+	width: 250px;
 	z-index: 1;
-	margin-right: 1%;
-	margin-top:10px;
+	margin:10px;
 	background: url("Rablogo/монтаж инженерных сетей_м.jpg") center no-repeat;
-    border-radius: 25px;
+	background-size: cover;
+    border-radius: 25px;	
+    transition: 1s;
 }
 
 .photo3{
 	height: 250px;
 	border-radius: 20px;
-	width: 19%;
+	width: 250px;
 	z-index: 1;
-	margin-right: 1%;
-	margin-top:10px;
+	margin:10px;
 	background: url("Rablogo/Монтаж систем пожаротушения_м.jpg") center no-repeat;
-
+	background-size: cover;
+	transition: 1s;
 }
 
 .photo4{
 	height: 250px;
 	border-radius: 20px;
-	width: 19%;
+	width: 250px;
 	z-index: 1;
-	margin-right: 1%;
-	margin-top:10px;
+	margin:10px;
 	background: url("Rablogo/СКС_м.jpg") center no-repeat;
-
+	background-size: cover;
+	background-size: cover;
+	transition: 1s;
 }
 
 .photo5{
 	height: 250px;
 	border-radius: 20px;
-	width: 19%;
+	width: 250px;
 	z-index: 1;
-	margin-top:10px;
+	margin:10px;
 	background: url("Rablogo/монтаж системы газоанализа_м.jpg") center no-repeat;
-
+	background-size: cover;
+	transition: 1s;
 }
 
 .photo6{
 	height: 250px;
 	border-radius: 20px;
-	width: 19%;
+	width: 250px;
 	z-index: 1;
-	margin-right: 1%;
-	margin-top:10px;
+	margin:10px;
 	background: url("Rablogo/электромонтажные работы_м.jpg") center no-repeat;
-
+	background-size: cover;
+	transition: 1s;
 }
 
 .photo7{
 	height: 250px;
 	border-radius: 20px;
-	width: 19%;
+	width: 250px;
 	z-index: 1;
-	margin-right: 1%;
-	margin-top:10px;
+	margin:10px;
 	background: url("Rablogo/испытательные лаборатории_м.jpg") center no-repeat;
-
+	background-size: cover;
+	transition: 1s;
 }
 
 .photo8{
 	height: 250px;
 	border-radius: 20px;
-	width: 19%;
+	width: 250px;
 	z-index: 1;
-	margin-right: 1%;
-	margin-top:10px;
+	margin:10px;
 	background: url("Rablogo/алмазное бурение_м.jpg") center no-repeat;
-
+	background-size: cover;
+	transition: 1s;
 }
 
 .photo9{
 	height: 250px;
 	border-radius: 20px;
-	width: 19%;
+	width: 250px;
 	z-index: 1;
-	margin-right: 1%;
-	margin-top:10px;
+	margin:10px;
 	background: url("Rablogo/коттеджное строительство_м.jpg") center no-repeat;
-
+	background-size: cover;
+	transition: 1s;
 }
 
 .photo10{
 	height: 250px;
 	border-radius: 20px;
-	width: 19%;
+	width: 250px;
 	z-index: 1;
-	margin-top:10px;
+	margin:10px;
 	background: url("Rablogo/Шумоизоляция ремонт_м.jpg") center no-repeat;
-
+	background-size: cover;
+	transition: 1s;	
 }
 
 .photo1:hover .content_back{
@@ -353,26 +362,30 @@ h1, h2, h3, h4, h5, h6{
 	z-index: 2;
 	opacity: 0;
 	border-radius: 20px;
+	transition: .1s;
 }
 /*=====================================INTRO3=================================*/
 /*============================================================================*/
 .blocks3{
-	height: 750px;
+	height: 100%;
 	background-color: #d9eafa;
 
 }
 
 .intro3photo{
 	display: flex;
+	align-items: center;
+	justify-content: center;
 	flex-wrap: wrap;
 	margin-top: 20px;
+	padding-bottom: 20px;
 }
 
 .photointro{
 	height: 200px;
-	width: 25%;
+	width: 300px;
 	overflow: hidden;
-	margin-top: 10px;
+	margin: 10px;
 	border-radius: 25px;
 
 }
@@ -381,22 +394,21 @@ h1, h2, h3, h4, h5, h6{
 /*=====================================INTRO4=================================*/
 /*============================================================================*/
 .intro4{
-	background-color: #aa9ac3;
-	height: 495px;
+	background: url(images/Footer_bg.png) center no-repeat;
+	background-size: cover;
 	display: flex;
 	flex-wrap: wrap;
 }
 
 
 .intro4logo{
-	height: 100%;
-	width: 30%;
+	height: 300px;
+	width: 300px;
 	float: left;
 
 }
 
 .intro4text{
-	height: 100%;
 	width: 70%;
 	float: right;
 	
@@ -473,13 +485,63 @@ h1, h2, h3, h4, h5, h6{
 	
 }
 
+.flex {
+	display: flex;
+	justify-content: center;
+	flex-wrap: wrap;
+}
+
+.no-wrap{
+	flex-wrap: nowrap;
+}
+
+.footer_text {
+	text-align: center;
+}
+
+.footer_text div{
+	color: white;
+	font-size: 16px;
+	font-weight: 400;
+	margin-bottom: 10px;
+}
+
+.footer_text_big{
+	color:black;
+	font-size: 30px;
+}
+
+
+
+
+
+/*===.    
+
+
+
+<div class="footer_text_big" style="padding-left: 50px;">
+          <div>Контакты</div>
+          <div style="padding-top: 30px;">О нас</div>
+          <div style="padding-top: 30px;">Отзывы</div>
+          <div style="padding-top: 30px;">Заказчики</div>
+          
+        </div>
 
 
 
 
 
 
-/*===.    <div class="zagolovog">Направления<br/> деятельности</div>
+
+
+
+
+
+
+
+
+
+<div class="zagolovog">Направления<br/> деятельности</div>
 
                     <div class="but">
 

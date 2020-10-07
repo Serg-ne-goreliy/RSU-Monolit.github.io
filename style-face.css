@@ -3,6 +3,7 @@ body {
 	margin-left: 0px;
 	margin-right: 0px;
 	margin-bottom: 0px;
+	font-family: sans-serif;
 
 
 	font-size:15px;
@@ -105,6 +106,9 @@ h1, h2, h3, h4, h5, h6{
 	height: 60px;
 	width: 25%;
 	float: left;
+	background: url(Logo/smalllogo.png) center no-repeat;
+    background-size: contain;
+	
     
 }
 
@@ -112,12 +116,18 @@ h1, h2, h3, h4, h5, h6{
 	width: 100%;
 	height: 60px;
 }
+
 /*====================================buttons================================*/
 .buttons{
 	height: 60px;
 	width: 50%;
 	float: right;
-	
+		
+}
+
+.butt{
+	text-decoration: none;
+	color: #fff;
 }
 
 .contacts{
@@ -128,6 +138,7 @@ h1, h2, h3, h4, h5, h6{
      font-size: 28px;
      text-align: center;
      padding-top: 15px;
+     
 }
 
 .reviews{
@@ -149,7 +160,32 @@ h1, h2, h3, h4, h5, h6{
      text-align: center;
      padding-top: 15px;
 
+}
 
+.contacts :hover{
+	transform: scale(1.1);
+	color: #bff3ff;
+}
+
+.reviews :hover{
+	transform: scale(1.1);
+	color: #bff3ff;
+}
+
+.company :hover{
+	transform: scale(1.1);
+	color: #bff3ff;
+}
+
+
+.butt a:hover{
+	transform: scale(1.1);
+	color: #bff3ff;
+}
+
+.butt a:hover{
+	transform: scale(1.1);
+	color: #bff3ff;
 }
 /*==================================Blocks===================================*/
 .blocks1{
@@ -410,7 +446,8 @@ h1, h2, h3, h4, h5, h6{
 	height: 360px;
 	width: 360px;
 	float: left;
-
+    background: url(Logo/logoOpacity.png) center no-repeat;
+    background-size: contain;
 }
 
 .intro4text{
@@ -552,6 +589,14 @@ h1, h2, h3, h4, h5, h6{
 	transform: scale(1.1);
 }
 
+.hover {
+	transition: .3s;
+}
+
+.hover:hover {
+	transform: scale(1.1);
+	color: #bff3ff;
+}
 /*===.    
 
 

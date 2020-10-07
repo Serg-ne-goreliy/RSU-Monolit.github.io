@@ -3,6 +3,7 @@ body {
 	margin-left: 0px;
 	margin-right: 0px;
 	margin-bottom: 0px;
+	font-family: sans-serif;
 
 
 	font-size:15px;
@@ -23,8 +24,7 @@ h1, h2, h3, h4, h5, h6{
 
 	/*===================================Container=============================*/
 	.container{
-	width:100%;
-	max-width: 1200px;
+	width:80vw;
 	margin: 0 auto;
 
 }
@@ -35,7 +35,7 @@ h1, h2, h3, h4, h5, h6{
 /*======================================================================*/
 .fixedheader{
   height: 60px;
-  background-color: #aa9ac3;
+  background: url(images/headerBG.png);
   width: 100%;
   position: fixed;
   margin-top: 0px;
@@ -62,19 +62,17 @@ h1, h2, h3, h4, h5, h6{
 }
 
 .blocks1{
-	height: 40vw;
+	height: 50vw;
 	
 	width: 100%;
-	background:  #1e1e21 url("images/Shumoizol remont.jpg") center no-repeat;
+	background:  #1e1e21 url("images/Shumoizol remont_blur.jpg") center no-repeat;
 	background-size:cover;
 	color: black;
 }
 
 .textlogo{
-	position: relative;
-	right: -1vw;
 	font-size:6vw;
-	padding-top: 40px;
+	padding-top: 80px;
 	text-align: right;
 }
 
@@ -82,10 +80,8 @@ h1, h2, h3, h4, h5, h6{
 /*======================================================================*/
 
 .intro2{
-	color: black;
 	font-size: 30px;
-	background-color: #d9eafa;
-
+	background-color: #32333c;
 }
 
 .container-text{
@@ -99,8 +95,7 @@ h1, h2, h3, h4, h5, h6{
 .Big-text{
 	height: 60px;
 	font-size: 35px;
-	text-align: left;
-	color:black;
+	text-align: center;
 	padding-top: 20px;
 }
 
@@ -111,8 +106,7 @@ h1, h2, h3, h4, h5, h6{
 /*======================================================================*/
 
 .intro3{
-	color: black;
-	background-color: #d9eafa;
+	background-color: #32333c;
 }
 
 .Raboty{
@@ -125,8 +119,7 @@ h1, h2, h3, h4, h5, h6{
 .ZakRaboty{
 	height: 60px;
 	font-size: 35px;
-	text-align: left;
-	color:black;
+	text-align: center;
 	padding-top: 20px;
 }
 
@@ -165,6 +158,8 @@ h1, h2, h3, h4, h5, h6{
     height: 360px;
     width: 360px;
     float: left;
+    background: url(Logo/logoOpacity.png) center no-repeat;
+    background-size: contain;
 
 }
 
@@ -297,3 +292,40 @@ h1, h2, h3, h4, h5, h6{
     color: #bff3ff;
 
 }
+
+.Exemp_Work {
+    margin: 1vw;
+    width: 30vw;
+    min-width: 515px;
+    height: 25vw;
+    min-height: 500px;
+    box-shadow: 0 0 20px rgba(0,0,0,0.5);
+    border-radius: 50px;
+}
+
+.Exemp_imgs {
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

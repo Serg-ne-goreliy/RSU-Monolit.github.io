@@ -4,6 +4,7 @@ body {
 	margin-right: 0px;
 	margin-bottom: 0px;
 	font-family: sans-serif;
+	text-decoration: none;
 
 
 	font-size:15px;
@@ -64,7 +65,7 @@ h1, h2, h3, h4, h5, h6{
   width: 100%;
   position: fixed;
   margin-top: 0px;
-  z-index: 5;
+  z-index: 20000;
   box-shadow: 0 0 20px rgba(0,0,0,0.5);
 }
 
@@ -111,16 +112,50 @@ h1, h2, h3, h4, h5, h6{
     
 }
 
+.head {
+	height: 46vw;
+	width:100%;
+	background: url("images/.jpg") center no-repeat;
+	background-size:cover;
+	color:black;
+	margin-bottom: 35px;
+}
+
+.textlogo{
+	color: #000;
+	position: relative;
+	right: 2vw;
+	font-size:6vw;
+	padding-top: 40px;
+	text-align: right;
+}
+
 .container_header{
 	width: 100%;
 	height: 60px;
 }
+
+.phonenumber{
+	display: flex;
+	flex-wrap: wrap;
+}
+
 /*====================================buttons================================*/
 .buttons{
 	height: 60px;
 	width: 50%;
 	float: right;
 	
+}
+
+.butt{
+	text-decoration: none;
+	color: #fff;
+}
+
+.butt:hover{
+	transform: scale(1.1);
+	color: #bff3ff;
 }
 
 .contacts{
@@ -130,7 +165,7 @@ h1, h2, h3, h4, h5, h6{
      font-size: 28px;
      text-align: center;
      padding-top: 15px;
-     color:black;
+
 }
 
 .reviews{
@@ -153,6 +188,144 @@ h1, h2, h3, h4, h5, h6{
 
 }
 
+/*=====================================INTRO2=================================*/
+/*============================================================================*/
+.blocks2{
+	height: 100%;
+	background-color: #32333c;
+}
+
+.buttittle{
+	height: 60px;
+	font-size: 35px;
+	text-align: center;
+	color:white;
+	font-weight: 500;
+	padding-top: 20px;
+	margin-bottom: 40px;
+}
+
+.butphoto{
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	flex-wrap: wrap;
+	margin-top: 15px;
+
+}
+
+/*=====================================Photo=================================*/
+/*============================================================================*/
+.photo1{
+	height: 550px;
+	width: 350px;
+	z-index: 1;
+	margin:10px;
+	background: url("images/Sirs-reviews.jpg") center no-repeat;
+	background-size: cover;
+    border-radius: 15px;	
+    transition: 1s;
+    
+}
+
+.photo2{
+	height: 550px;
+	width: 350px;
+	z-index: 1;
+	margin:10px;
+	background: url("images/Electrosert-review.jpg") center no-repeat;
+	background-size: cover;
+    border-radius: 15px;	
+    transition: 1s;
+    
+}
+
+.photo3{
+	height: 550px;
+	width: 350px;
+	border-radius: 15px;
+	z-index: 1;
+	margin:10px;
+	background: url("images/FSB-review.jpg") center no-repeat;
+	background-size: cover;
+	transition: 1s;
+	
+}
+
+.photo4{
+	height: 550px;
+	width: 350px;
+	border-radius: 15px;
+	z-index: 1;
+	margin:10px;
+	background: url("images/Linde-review.jpg") center no-repeat;
+	background-size: cover;
+	background-size: cover;
+	transition: 1s;
+	
+}
+
+.photo5{
+	height: 550px;
+	width: 350px;
+	border-radius: 15px;
+	z-index: 1;
+	margin:10px;
+	background: url("images/Linde-sks-review.jpg") center no-repeat;
+	background-size: cover;
+	transition: 1s;
+	
+}
+
+.photo6{
+	height: 550px;
+	width: 350px;
+	border-radius: 15px;
+	z-index: 1;
+	margin:10px;
+	background: url("images/LZM.jpg") center no-repeat;
+	background-size: cover;
+	transition: 1s;
+	
+}
+
+.photo7{
+	height: 550px;
+	width: 350px;
+	border-radius: 15px;
+	z-index: 1;
+	margin:10px;
+	background: url("images/VNIIPO-review.jpg") center no-repeat;
+	background-size: cover;
+	transition: 1s;
+	
+}
+
+.scale1 {
+	box-shadow: 0 0 20px rgba(0,0,0,0.5);
+	transition: .2s;
+	z-index: 2000;
+	
+	
+}
+
+.scale1:hover {
+	transform: scale(1.3);
+
+	
+}
+
+.hover {
+	transition: .3s;
+
+	
+}
+
+.hover:hover {
+	transform: scale(1.1);
+	color: #bff3ff;
+	
+}
 
 /*=====================================INTRO4=================================*/
 /*============================================================================*/

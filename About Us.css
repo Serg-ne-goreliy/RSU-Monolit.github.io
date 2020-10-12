@@ -4,6 +4,7 @@ body {
 	margin-right: 0px;
 	margin-bottom: 0px;
 	font-family: sans-serif;
+	text-decoration: none;
 
 
 	font-size:15px;
@@ -112,9 +113,32 @@ h1, h2, h3, h4, h5, h6{
     
 }
 
+.head {
+	height: 46vw;
+	width:100%;
+	background: url("images/.jpg") center no-repeat;
+	background-size:cover;
+	color:black;
+	margin-bottom: 35px;
+}
+
+.textlogo{
+	color: #000;
+	position: relative;
+	right: 2vw;
+	font-size:6vw;
+	padding-top: 40px;
+	text-align: right;
+}
+
 .container_header{
 	width: 100%;
 	height: 60px;
+}
+
+.phonenumber{
+	display: flex;
+	flex-wrap: wrap;
 }
 /*====================================buttons================================*/
 .buttons{
@@ -122,6 +146,16 @@ h1, h2, h3, h4, h5, h6{
 	width: 50%;
 	float: right;
 	
+}
+
+.butt{
+	text-decoration: none;
+	color: #fff;
+}
+
+.butt:hover{
+	transform: scale(1.1);
+	color: #bff3ff;
 }
 
 .contacts{
@@ -154,21 +188,6 @@ h1, h2, h3, h4, h5, h6{
      padding-top: 15px;
 
 
-}
-
-.blocks1{
-	height: 50vw;
-	
-	width: 100%;
-	background:  #1e1e21 url("images/SKS.jpg") center no-repeat;
-	background-size:cover;
-	color: black;
-}
-
-.textlogo{
-	font-size:6vw;
-	padding-top: 80px;
-	text-align: right;
 }
 
 /*=====================================INTRO4=================================*/

@@ -541,18 +541,26 @@ h1, h2, h3, h4, h5, h6{
 .footer_text {
 	width: 50%;
 	text-align: center;
+
 }
 
-.footer_text div{
+.footer_text a{
 	color: white;
 	font-size: 16px;
 	font-weight: 400;
 	margin-bottom: 10px;
+	display: block;
+    color: #fff;
+    text-align: center;
+    text-decoration: none;
+    font-family: sans-serif;
+    transition: 0.1s;
 }
 
-.footer_text_big{
-	color:black;
-	font-size: 30px;
+.footer_text a:hover {
+	transform: scale(1.1);
+	color: #bff3ff;
+
 }
 
 .footer_menu {

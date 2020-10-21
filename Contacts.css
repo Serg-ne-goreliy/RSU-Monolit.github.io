@@ -119,12 +119,11 @@ h1, h2, h3, h4, h5, h6{
 }
 
 .textlogo{
-	color: #000;
-	position: relative;
-	right: 2vw;
+	color: #fff;
 	font-size:6vw;
-	padding-top: 40px;
-	text-align: right;
+	padding-top: 10vw;
+	text-align: center;
+	margin: 0;
 }
 
 .container_header{
@@ -201,6 +200,15 @@ h1, h2, h3, h4, h5, h6{
 	margin-bottom: 40px;
 }
 
+.middle_text {
+	color: #fff;
+	text-align: center;
+	font-size: 1.5rem;
+}
+
+.map_tel {
+	width: 80%;
+}
 /*=====================================INTRO4=================================*/
 /*============================================================================*/
 .intro4{
@@ -303,29 +311,33 @@ h1, h2, h3, h4, h5, h6{
 	flex-wrap: wrap;
 }
 
-.space_around {
-	justify-content: space-around;
-}
-
 .no-wrap{
 	flex-wrap: nowrap;
 }
 
 .footer_text {
-	width: 40%;
+	width: 50%;
 	text-align: center;
+
 }
 
-.footer_text div{
+.footer_text a{
 	color: white;
 	font-size: 16px;
 	font-weight: 400;
 	margin-bottom: 10px;
+	display: block;
+    color: #fff;
+    text-align: center;
+    text-decoration: none;
+    font-family: sans-serif;
+    transition: 0.1s;
 }
 
-.footer_text_big{
-	color:black;
-	font-size: 30px;
+.footer_text a:hover {
+	transform: scale(1.1);
+	color: #bff3ff;
+
 }
 
 .footer_menu {
@@ -340,6 +352,18 @@ h1, h2, h3, h4, h5, h6{
 	font-weight: 100;
 	display: block;
     color: #fff;
+    text-align: center;
+    text-decoration: none;
+    font-family: sans-serif;
+    transition: 0.1s;
+
+}
+
+.footer_menu div {
+	margin-bottom: 60px;
+	font-size: 30px;
+	font-weight: 100;
+	display: block;
     text-align: center;
     text-decoration: none;
     font-family: sans-serif;
@@ -371,11 +395,8 @@ h1, h2, h3, h4, h5, h6{
 	color: #bff3ff;
 }
 
-.middle_text {
-	text-align: center;
-	font-size: 18px;
-}
-
-.map_tel {
-	width: 80%;
+.active{
+	transform: scale(1.1);
+	color: #bff3ff;
+	
 }

@@ -165,18 +165,17 @@ h1, h2, h3, h4, h5, h6{
     float: left;
     background: url(Logo/logoOpacity.png) center no-repeat;
     background-size: contain;
-
 }
 
 .intro4text{
     width: 500px;
     float: right;
-
+    
 }
 
 /*======================================block=================================*/
 .block1{
-
+    
     width: 33.33333%;
     height: 100%;
     float: left;
@@ -185,7 +184,7 @@ h1, h2, h3, h4, h5, h6{
 }
 
 .block3{
-
+    
     width: 33.33333%;
     height: 100%;
     float: right;
@@ -195,12 +194,12 @@ h1, h2, h3, h4, h5, h6{
 }
 
 .block2{
-
+  
     width: 33.33333%;
     height: 100%;
     float: right;
 
-
+    
 }
 .block12{
     width: 66.66666%;
@@ -234,7 +233,7 @@ h1, h2, h3, h4, h5, h6{
 
 .but{
     text-align: center;
-
+    
 }
 
 .buttext{
@@ -242,7 +241,7 @@ h1, h2, h3, h4, h5, h6{
     margin-top: 14px;
     line-height: 123%;
     color: white;
-
+    
 }
 
 .flex {
@@ -259,18 +258,26 @@ h1, h2, h3, h4, h5, h6{
 .footer_text {
     width: 50%;
     text-align: center;
+
 }
 
-.footer_text div{
+.footer_text a{
     color: white;
     font-size: 16px;
     font-weight: 400;
     margin-bottom: 10px;
+    display: block;
+    color: #fff;
+    text-align: center;
+    text-decoration: none;
+    font-family: sans-serif;
+    transition: 0.1s;
 }
 
-.footer_text_big{
-    color:black;
-    font-size: 30px;
+.footer_text a:hover {
+    transform: scale(1.1);
+    color: #bff3ff;
+
 }
 
 .footer_menu {
@@ -296,6 +303,30 @@ h1, h2, h3, h4, h5, h6{
     transform: scale(1.1);
     color: #bff3ff;
 
+}
+
+.scale {
+    box-shadow: 0 0 20px rgba(0,0,0,0.5);
+    transition: .2s;
+}
+
+.scale:hover {
+    transform: scale(1.1);
+}
+
+.hover {
+    transition: .3s;
+}
+
+.hover:hover {
+    transform: scale(1.1);
+    color: #bff3ff;
+}
+
+.active{
+    transform: scale(1.1);
+    color: #bff3ff;
+    margin-bottom: 10px;
 }
 
 .Exemp_Work {

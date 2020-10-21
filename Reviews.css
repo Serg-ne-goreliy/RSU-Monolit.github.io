@@ -224,7 +224,7 @@ h1, h2, h3, h4, h5, h6{
 	background: url("images/Sirs-reviews.jpg") center no-repeat;
 	background-size: cover;
     border-radius: 15px;	
-    transition: 1s;
+    transition: .5s;
     
 }
 
@@ -236,7 +236,7 @@ h1, h2, h3, h4, h5, h6{
 	background: url("images/Electrosert-review.jpg") center no-repeat;
 	background-size: cover;
     border-radius: 15px;	
-    transition: 1s;
+    transition: .5s;
     
 }
 
@@ -248,7 +248,7 @@ h1, h2, h3, h4, h5, h6{
 	margin:10px;
 	background: url("images/FSB-review.jpg") center no-repeat;
 	background-size: cover;
-	transition: 1s;
+	transition: .5s;
 	
 }
 
@@ -261,7 +261,7 @@ h1, h2, h3, h4, h5, h6{
 	background: url("images/Linde-review.jpg") center no-repeat;
 	background-size: cover;
 	background-size: cover;
-	transition: 1s;
+	transition: .5s;
 	
 }
 
@@ -273,7 +273,7 @@ h1, h2, h3, h4, h5, h6{
 	margin:10px;
 	background: url("images/Linde-sks-review.jpg") center no-repeat;
 	background-size: cover;
-	transition: 1s;
+	transition: .5s;
 	
 }
 
@@ -285,7 +285,7 @@ h1, h2, h3, h4, h5, h6{
 	margin:10px;
 	background: url("images/LZM.jpg") center no-repeat;
 	background-size: cover;
-	transition: 1s;
+	transition: .5s;
 	
 }
 
@@ -297,7 +297,7 @@ h1, h2, h3, h4, h5, h6{
 	margin:10px;
 	background: url("images/VNIIPO-review.jpg") center no-repeat;
 	background-size: cover;
-	transition: 1s;
+	transition: .5s;
 	
 }
 
@@ -335,6 +335,7 @@ h1, h2, h3, h4, h5, h6{
 	background-size: cover;
 	display: flex;
 	flex-wrap: wrap;
+
 }
 
 
@@ -437,18 +438,26 @@ h1, h2, h3, h4, h5, h6{
 .footer_text {
 	width: 50%;
 	text-align: center;
+
 }
 
-.footer_text div{
+.footer_text a{
 	color: white;
 	font-size: 16px;
 	font-weight: 400;
 	margin-bottom: 10px;
+	display: block;
+    color: #fff;
+    text-align: center;
+    text-decoration: none;
+    
+    transition: 0.1s;
 }
 
-.footer_text_big{
-	color:black;
-	font-size: 30px;
+.footer_text a:hover {
+	transform: scale(1.1);
+	color: #bff3ff;
+
 }
 
 .footer_menu {
@@ -465,10 +474,22 @@ h1, h2, h3, h4, h5, h6{
     color: #fff;
     text-align: center;
     text-decoration: none;
-    font-family: sans-serif;
+    
     transition: 0.1s;
 
 }
+
+.footer_menu div {
+	margin-bottom: 60px;
+	font-size: 30px;
+	font-weight: 100;
+	display: block;
+    text-align: center;
+    text-decoration: none;
+    transition: 0.1s;
+
+}
+
 
 .footer_menu a:hover {
 	transform: scale(1.1);
@@ -482,7 +503,6 @@ h1, h2, h3, h4, h5, h6{
 }
 
 .scale:hover {
-	z-index: 5000;
 	transform: scale(1.1);
 }
 
@@ -495,10 +515,17 @@ h1, h2, h3, h4, h5, h6{
 	color: #bff3ff;
 }
 
+.active{
+	transform: scale(1.1);
+	color: #bff3ff;
+	
+}
 
-
-
-
+.open {
+	position: absolute;
+	z-index: 5001;
+	transform: scale(2);
+}
 
 
 

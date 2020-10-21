@@ -221,7 +221,7 @@ h1, h2, h3, h4, h5, h6{
 	width: 350px;
 	z-index: 1;
 	margin:10px;
-	background: url("images/Sirs-reviews.jpg") center no-repeat;
+	background: url("Reviews/Sirs-reviews.jpg") center no-repeat;
 	background-size: cover;
     border-radius: 15px;	
     transition: .5s;
@@ -233,7 +233,7 @@ h1, h2, h3, h4, h5, h6{
 	width: 350px;
 	z-index: 1;
 	margin:10px;
-	background: url("images/Electrosert-review.jpg") center no-repeat;
+	background: url("Reviews/Electrosert-review.jpg") center no-repeat;
 	background-size: cover;
     border-radius: 15px;	
     transition: .5s;
@@ -246,7 +246,7 @@ h1, h2, h3, h4, h5, h6{
 	border-radius: 15px;
 	z-index: 1;
 	margin:10px;
-	background: url("images/FSB-review.jpg") center no-repeat;
+	background: url("Reviews/FSB-review.jpg") center no-repeat;
 	background-size: cover;
 	transition: .5s;
 	
@@ -258,7 +258,7 @@ h1, h2, h3, h4, h5, h6{
 	border-radius: 15px;
 	z-index: 1;
 	margin:10px;
-	background: url("images/Linde-review.jpg") center no-repeat;
+	background: url("Reviews/Linde-review.jpg") center no-repeat;
 	background-size: cover;
 	background-size: cover;
 	transition: .5s;
@@ -271,7 +271,7 @@ h1, h2, h3, h4, h5, h6{
 	border-radius: 15px;
 	z-index: 1;
 	margin:10px;
-	background: url("images/Linde-sks-review.jpg") center no-repeat;
+	background: url("Reviews/Linde-sks-review.jpg") center no-repeat;
 	background-size: cover;
 	transition: .5s;
 	
@@ -283,7 +283,7 @@ h1, h2, h3, h4, h5, h6{
 	border-radius: 15px;
 	z-index: 1;
 	margin:10px;
-	background: url("images/LZM.jpg") center no-repeat;
+	background: url("Reviews/LZM.jpg") center no-repeat;
 	background-size: cover;
 	transition: .5s;
 	
@@ -295,7 +295,7 @@ h1, h2, h3, h4, h5, h6{
 	border-radius: 15px;
 	z-index: 1;
 	margin:10px;
-	background: url("images/VNIIPO-review.jpg") center no-repeat;
+	background: url("Reviews/VNIIPO-review.jpg") center no-repeat;
 	background-size: cover;
 	transition: .5s;
 	

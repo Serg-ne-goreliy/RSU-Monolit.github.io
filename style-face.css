@@ -391,13 +391,14 @@ h1, h2, h3, h4, h5, h6{
 	padding-top: 60px;
 	text-align: center;
 	text-decoration: none;
-	color: black;
+	color: white;
 
 
 }
 
 .content_back{
-	background-color: rgba(255, 255, 255, .75);
+	background-color: rgba(47, 47, 47, .75);
+	backdrop-filter:blur(3px);
 	height: 100%;
 	width: 100%;
 	z-index: 2;

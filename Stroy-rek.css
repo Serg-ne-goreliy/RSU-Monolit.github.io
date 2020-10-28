@@ -3,7 +3,7 @@ body {
 	margin-left: 0px;
 	margin-right: 0px;
 	margin-bottom: 0px;
-	font-family: sans-serif;
+	font-family: 'Merriweather', serif;
 
 
 	font-size:15px;
@@ -86,7 +86,7 @@ h1, h2, h3, h4, h5, h6{
 /*======================================================================*/
 
 .intro2{
-	font-size: 30px;
+	font-size: 25px;
 	background-color: #32333c;
 }
 
@@ -94,7 +94,8 @@ h1, h2, h3, h4, h5, h6{
 	max-width: 1000px;
 	padding-bottom: 40px;
 	margin:0 auto;
-	text-align: center;
+	text-align: justify;
+	font-size: 20px;
 
 }
 
@@ -271,7 +272,7 @@ h1, h2, h3, h4, h5, h6{
     color: #fff;
     text-align: center;
     text-decoration: none;
-    font-family: sans-serif;
+    font-family: 'Merriweather', serif;
     transition: 0.1s;
 }
 
@@ -289,13 +290,13 @@ h1, h2, h3, h4, h5, h6{
 
 .footer_menu a {
 	margin-bottom: 60px;
-	font-size: 30px;
+	font-size: 25px;
 	font-weight: 100;
 	display: block;
     color: #fff;
     text-align: center;
     text-decoration: none;
-    font-family: sans-serif;
+    font-family: 'Merriweather', serif;
     transition: 0.1s;
 
 }
@@ -328,8 +329,7 @@ h1, h2, h3, h4, h5, h6{
 	margin: 1vw;
 	width: 50vw;
 	min-width: 515px;
-	height: 25vw;
-	min-height: 500px;
+	margin-bottom: 30px;
 /*	box-shadow: 0 0 20px rgba(0,0,0,0.5);
 	border-radius: 50px;*/
 }

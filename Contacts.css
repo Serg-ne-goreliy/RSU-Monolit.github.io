@@ -3,7 +3,7 @@ body {
 	margin-left: 0px;
 	margin-right: 0px;
 	margin-bottom: 0px;
-	font-family: sans-serif;
+	font-family: 'Merriweather', serif;
 	text-decoration: none;
 
 	font-size:15px;
@@ -67,6 +67,7 @@ h1, h2, h3, h4, h5, h6{
   margin-top: 0px;
   z-index: 5;
   box-shadow: 0 0 20px rgba(0,0,0,0.5);
+  font-family: 'Merriweather', serif;
 }
 
 .phonenumber{
@@ -105,7 +106,7 @@ h1, h2, h3, h4, h5, h6{
 	height: 60px;
 	width: 25%;
 	float: left;
-	background: url(Logo/smalllogo.png) center no-repeat;
+	background: url(Logo/.png) center no-repeat;
     background-size: contain;   
 }
 
@@ -202,7 +203,7 @@ h1, h2, h3, h4, h5, h6{
 
 .middle_text {
 	color: #fff;
-	text-align: center;
+	text-align: justify;
 	font-size: 1.5rem;
 }
 
@@ -330,8 +331,8 @@ h1, h2, h3, h4, h5, h6{
     color: #fff;
     text-align: center;
     text-decoration: none;
-    font-family: sans-serif;
     transition: 0.1s;
+    font-family: 'Merriweather', serif;
 }
 
 .footer_text a:hover {
@@ -348,25 +349,23 @@ h1, h2, h3, h4, h5, h6{
 
 .footer_menu a {
 	margin-bottom: 60px;
-	font-size: 30px;
+	font-size: 25px;
 	font-weight: 100;
 	display: block;
     color: #fff;
     text-align: center;
     text-decoration: none;
-    font-family: sans-serif;
     transition: 0.1s;
-
+    font-family: 'Merriweather', serif;
 }
 
 .footer_menu div {
 	margin-bottom: 60px;
-	font-size: 30px;
+	font-size: 25px;
 	font-weight: 100;
 	display: block;
     text-align: center;
     text-decoration: none;
-    font-family: sans-serif;
     transition: 0.1s;
 
 }

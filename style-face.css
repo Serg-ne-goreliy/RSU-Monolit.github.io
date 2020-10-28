@@ -3,7 +3,7 @@ body {
 	margin-left: 0px;
 	margin-right: 0px;
 	margin-bottom: 0px;
-	font-family: sans-serif;
+	font-family: 'Merriweather', serif;
 
 
 	font-size:15px;
@@ -67,6 +67,7 @@ h1, h2, h3, h4, h5, h6{
   margin-top: 0px;
   z-index: 5;
   box-shadow: 0 0 20px rgba(0,0,0,0.5);
+
 }
 
 .phonenumber{
@@ -76,7 +77,7 @@ h1, h2, h3, h4, h5, h6{
 	text-align: center;
 	font-size: 22px;
 	color: black;
-	
+	font-family: 'Merriweather', serif;
 }
 .mail{
 	height: 60px;
@@ -86,7 +87,7 @@ h1, h2, h3, h4, h5, h6{
 	text-align: center;
 	font-size: 22px;
 	color: black;
-	
+	font-family: 'Merriweather', serif;
 }
 
 /*===================================header==================================*/
@@ -99,6 +100,7 @@ h1, h2, h3, h4, h5, h6{
   background: url(images/headerBG.png) center no-repeat;
   background-size: cover;
   width: 100%;
+  font-family: 'Merriweather', serif;
 
 }
 
@@ -106,7 +108,7 @@ h1, h2, h3, h4, h5, h6{
 	height: 60px;
 	width: 25%;
 	float: left;
-	background: url(Logo/smalllogo.png) center no-repeat;
+	background: url(Logo/.png) center no-repeat;
     background-size: contain;
 	
     
@@ -135,7 +137,7 @@ h1, h2, h3, h4, h5, h6{
      width: 32%;
      display: inline-block;
      color:white;
-     font-size: 28px;
+     font-size: 25px;
      text-align: center;
      padding-top: 15px;
      
@@ -146,7 +148,7 @@ h1, h2, h3, h4, h5, h6{
      width: 32%;
      display: inline-block;
      color:white;
-     font-size: 28px;
+     font-size: 25px;
      text-align: center;
      padding-top: 15px;
 }
@@ -156,9 +158,9 @@ h1, h2, h3, h4, h5, h6{
      width: 32%;
      display: inline-block;
      color:white;
-     font-size: 28px;
+     font-size: 25px;
      text-align: center;
-     padding-top: 15px;
+     padding-top:15px;
 
 }
 
@@ -195,6 +197,7 @@ h1, h2, h3, h4, h5, h6{
 	background: #1e1e21 url("images/introin.jpg") center no-repeat;
 	background-size:cover;
 	color:black;
+	font-family: 'Merriweather', serif;
 	
 	
 }
@@ -203,7 +206,7 @@ h1, h2, h3, h4, h5, h6{
 	color: #32333c;
 	position: relative;
 	right: -1vw;
-	font-size:6vw;
+	font-size:5vw;
 	padding-top: 40px;
 	text-align: right;
 }
@@ -212,16 +215,18 @@ h1, h2, h3, h4, h5, h6{
 .blocks2{
 	height: 100%;
 	background-color: #32333c;
+	font-family: 'Playfair Display', serif;
 }
 
 .buttittle{
 	height: 60px;
-	font-size: 35px;
+	font-size: 33px;
 	text-align: center;
 	color:white;
 	font-weight: 500;
 	padding-top: 20px;
 	margin-bottom: 40px;
+	font-family: 'Merriweather', serif;
 }
 
 .butphoto{
@@ -386,11 +391,12 @@ h1, h2, h3, h4, h5, h6{
 	width: 250px;
 	height: 250px;
 	display: flex;
-	font-size: 25px;
+	font-size: 22px;
 	justify-content: center;
 	padding-top: 60px;
 	text-align: center;
 	text-decoration: none;
+	font-family: 'Merriweather', serif;
 	color: white;
 
 
@@ -411,6 +417,7 @@ h1, h2, h3, h4, h5, h6{
 .blocks3{
 	height: 100%;
 	background-color: #32333c;
+	font-family: 'Merriweather', serif;
 
 }
 
@@ -554,7 +561,7 @@ h1, h2, h3, h4, h5, h6{
     color: #fff;
     text-align: center;
     text-decoration: none;
-    font-family: sans-serif;
+    font-family: 'Merriweather', serif;
     transition: 0.1s;
 }
 
@@ -568,17 +575,18 @@ h1, h2, h3, h4, h5, h6{
 	margin-top: 6px;
 	width: 300px;
 	height: 300px;
+	font-family: 'Merriweather', serif;
 }
 
 .footer_menu a {
 	margin-bottom: 60px;
-	font-size: 30px;
+	font-size: 25px;
 	font-weight: 100;
 	display: block;
     color: #fff;
     text-align: center;
     text-decoration: none;
-    font-family: sans-serif;
+    font-family: 'Merriweather', serif;
     transition: 0.1s;
 
 }
